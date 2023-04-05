@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | Interactive rating component</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- Rating state start -->
+		<div class="box">
+			<div class="box-wrapper">
+				<img class="star" src="images/icon-star.svg" alt="" />
+
+				<h1 class="title">How did we do?</h1>
+				<p class="description">
+					Please let us know how we did with your support request. All
+					feedback is appreciated to help us improve our offering!
+				</p>
+				<div class="number-buttons">
+					<button class="button-1 button">1</button>
+					<button class="button-2 button">2</button>
+					<button class="button-3 button">3</button>
+					<button class="button-4 button">4</button>
+					<button class="button-5 button">5</button>
+				</div>
+				<div class="button-wrapper">
+					<button class="submit">Submit</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="thank-you-box hide">
+			<img
+				class="thank-you-image"
+				src="images/illustration-thank-you.svg"
+				alt=""
+			/>
+			<div class="select">
+				You selected<span class="choice"></span> out of 5
+			</div>
+			<h1 class="thank-you-title">Thank you!</h1>
+			<p class="thank-you-description">
+				We appreciate you taking the time to give a rating. If you ever
+				need more support, don’t hesitate to get in touch!
+			</p>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
